@@ -29,3 +29,12 @@
 .cart_info .del{cursor: pointer;color: #337AB7;font-size: .8rem;text-decoration: underline;}
 .cart_info .stor{margin:0 8px;color: #d9534f;font-size: 1.5rem;}
 .cart_info .stor1{font-size: 1.2rem;}
+/*结算清单*/
+.inventory table {width:80%;}
+.inventory .goods_info a{font-size: .8rem;}
+.nventory_bottom {padding:10px; text-align: right;padding-bottom: 50px;font-size: 1rem;}
+.nventory_bottom .item{margin-top:8px;}
+.nventory_bottom .item_title strong{color: #d9534f;font-size: 1rem;margin:0 8px;}
+.nventory_bottom .item_m{width:100px;display: inline-block;}
+.nventory_bottom .item_strong {border: 1px solid #F1D5A3;background: #FFFBEF;padding: 20px;margin: 10px 0;font-size:1rem}
+.nventory_bottom .item_strong .strong_i .item_m{color: #d9534f;font-size: 2rem;}
