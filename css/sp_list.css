@@ -1,0 +1,47 @@
+
+#list_tab  {position: relative;}
+#list_tab a {color: #444;}
+#list_tab a:hover {color: #0275d8;}
+#list_tab .list-group {padding:0;}
+#list_tab .fixed {position: absolute;width:84%;}
+/*商品列表*/
+.udk_sp  {padding-left: 0;padding-right: .5rem;margin-bottom: 1.5rem;}
+.udk_sp:nth-child(2n){padding-left: .5rem;padding-right:0;}
+.udk_sp .thumbnail {border:1px solid #ccc;padding: .625rem 0;min-height: 11rem;margin-bottom: 0}
+.udk_sp .thumbnail:hover{border: 1px solid #0275d8;box-shadow: 3px 3px  0 #ccc;}
+.udk_sp .caption h3{font-size: 1.375rem;margin-top: 0;margin-bottom:0;max-height: 3.5rem;overflow: hidden;min-height: 3.5rem;}
+.udk_sp .caption h3 a{color: #444;}
+.udk_sp .caption h3 a:hover{color: #0275d8; text-decoration: none;}
+.udk_sp .caption .sp_msg{padding: 0;}
+.udk_sp .caption .sp_msg p{margin:0;}
+.udk_sp .caption .sp_msg .sp_Stock {min-height: 2rem;font-size: .875rem;line-height: 2rem;overflow: hidden;}
+.udk_sp .caption .sp_msg .del{color: #bbb;font-size: .75rem;min-height: 1rem;line-height: 1rem;}
+.udk_sp .caption .sp_msg .sp_Price {font-size: 1.625rem;color: #d9534f;font-weight: bold;}
+.udk_sp .caption .add_cart { margin-top: 1.5rem;}
+.pagination_box {text-align: center;}
+
+
+
+@media (min-width: 34em) {
+	.udk_sp  {padding-left: 0;padding-right:0;margin-bottom: 1.5rem;}
+	.udk_sp:nth-child(2n){padding-left: 0;padding-right:0;}
+
+}
+
+@media (min-width: 48em) {
+	.udk_sp  {padding-left: 0;padding-right:0;margin-bottom: 1.5rem;}
+	.udk_sp:nth-child(2n){padding-left: 0;padding-right:0;}
+
+}
+
+@media (min-width: 62em) {
+	.udk_sp  {padding-left: 0;padding-right:0;margin-bottom: 1.5rem;}
+	.udk_sp:nth-child(2n){padding-left: 0;padding-right:0;}
+
+}
+
+@media (min-width: 75em) {
+
+	.udk_sp  {padding-left: 0;padding-right: .8rem;margin-bottom: 1.5rem;}
+	.udk_sp:nth-child(2n){padding-left: .8rem;padding-right:0;}
+}

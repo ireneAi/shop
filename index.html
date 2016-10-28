@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>电商平台</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/carousel.js"></script>
+	<script type="text/javascript" src="js/commont.js"></script>
+</head>
+<body>
+	<!-- topheader start-->
+	<div class="container-fluid header">		
+		<div class="container">
+			<div class="col-xs-6 col-sm-4 col-md-6 col-lg-6 login_link">
+				<a href="#">登录</a>
+				<a href="#">注册</a>
+			</div>
+			<div class="col-xs-6 col-sm-8 col-md-6 col-lg-6 my_info">
+				<a href="shop_cart.html">我的购物车 <span class="badge">42</span></a>
+				<a href="#">我的订单</a>
+			</div>
+		</div>
+	</div>
+	<!-- topheader end-->
+	<!-- logoheader star-->
+	<div class="container header-logo index-tel">
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 logo">
+			<a href="index.html"><img src="img/logo.png"></a>
+		</div>
+		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 push-right tel">
+			<h3>客服电话：400-420-410-000</h3>
+		</div>
+		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 push-right search">
+			<div class="col-xs-4 col-lg-2">				
+				<select class="adr_selec">
+					<option>朝阳区</option>
+					<option>海淀区</option>
+				</select>
+			</div>
+			<div class="col-xs-8 col-lg-10 input-group">
+				<input type="text" class="form-control" placeholder="优质商品，超低价格">
+				<span class="input-group-btn">
+					<button class="btn btn-primary" type="button">搜 索</button>
+				</span>
+			</div>
+		</div>
+	</div>
+	<!-- logoheader end-->
+	<!-- ad start -->
+	<div  class="container">
+		<div class="ad_text" id="ad_actvity">
+			<span class="pull-left title_ad">活动速递：</span>			
+			<ul>
+				<li><a href="#">国庆期间活动满199-100</a></li>
+				<li><a href="#">洗护活动，三件7折</a></li>
+				<li><a href="#">限时活动五天</a></li>
+			</ul>			
+		</div>		
+	</div>
+	<!-- ad end -->	
+	<!-- banner start -->
+	<div class="container banner">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="img/b1.jpg" alt="满199-100">
+					<div class="carousel-caption">
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/b2.jpg" alt="旅行节">
+					<div class="carousel-caption">
+					</div>
+				</div>			
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>	
+	<!-- banner end -->
+	<!-- program start-->
+	<div class="container">
+		<div class="program clearfix">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 program-main">
+				<h3>热销推荐</h3>
+				<a href="main2.html">
+					<img src="img/program1.jpg" title="热销推荐">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 program-main">
+				<h3>特价专区</h3>
+				<a href="main2.html">
+					<img src="img/program2.jpg" title="特价专区">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 program-main">
+				<h3>团购专区</h3>
+				<a href="main2.html">
+					<img src="img/program3.jpg" title="团购专区">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- program end-->	
+	<!-- classify start-->	
+	<div class="container">
+		<div class="classify clearfix">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">饮料专场</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c1.png">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">酒水专场</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c4.png">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">个人清洁</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c2.png">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">粮酒调料</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c3.png">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">休闲食品</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c5.png">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">纸巾湿巾</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c6.png" >
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">生鲜食品</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c7.png" >
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 classify-main">
+				<h4 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">进口食品</h4>
+				<a class="col-xs-12 col-sm-12 col-md-6 col-lg-6 classify-img" href="main1.html">
+					<img src="img/c8.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- classify end-->
+	<!-- goods_list start-->
+	<div class="container">
+		<div class="recommend clearfix">
+			<div class="h3-title">
+				<h3><span>----------</span>　　　系统推荐　　　<span>----------</span></h3>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 udk_sp">
+				<img src="img/2.jpg">
+				<div class="col-md-12 caption">
+					<h4><a href="#">夏日时光 五款话梅组合</a></h4>
+					<p><strong class="sp_Price">￥21.50</strong></p>	
+				</div>				
+			</div>	
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 udk_sp">
+				<img src="img/3.jpg">
+				<div class="col-md-12 caption">
+					<h4><a href="#">新疆和田大红枣 5星精品 优质</a></h4>
+					<p><strong class="sp_Price">￥21.50</strong></p>	
+				</div>				
+			</div>	
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 udk_sp">
+				<img src="img/4.jpg">
+				<div class="col-md-12 caption">
+					<h4><a href="#">新品上市 烟台红苹果 五斤装</a></h4>
+					<p><strong class="sp_Price">￥21.50</strong></p>	
+				</div>				
+			</div>	
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 udk_sp">
+				<img src="img/1.jpg">
+				<div class="col-md-12 caption">
+					<h4><a href="#">夏日时光 五款话梅组合</a></h4>
+					<p><strong class="sp_Price">￥21.50</strong></p>	
+				</div>				
+			</div>	
+		</div>
+		
+	</div>
+	<!-- goods_list end-->
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{font-family: "微软雅黑"}
+/*顶部*/
+.badge {display: inline-block;min-width: 10px;padding: 3px 7px;font-size: 12px;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: 0;background-color: #d9534f;border-radius: 10px;}
+.header {height: 2.5rem;line-height: 2.5rem;border-bottom: 1px solid #ccc;margin-bottom: 1rem;}
+.login_link a{margin-right: 1rem;}
+.my_info a {float: right;margin-right: 2rem;color: #333;}
+
+/*logoheder*/
+.header-logo {min-height:5rem;margin-bottom: 1.5rem;}
+.sp_search {border: 1px solid #ddd;min-height: 3rem;padding: .75rem 0;margin-bottom: 1rem;background: #f5f5f5;}
+.header-logo .logo img{height: 4rem;width:10rem;margin-top: .5rem;border:0;}
+.header-logo .search {margin-top: 1.5rem;padding:0;}
+.header-logo .tel {text-align: right;}
+.header-logo .tel h3{font-size: 1rem;margin: 0 2rem  0 0;height: 1.5rem;color: #030303;line-height: 2rem;}
+.header-logo .search .adr_selec{padding: 0.275rem .75rem;font-size: 1rem;line-height: 1.5;color: #55595c;background-color: #fff;background-image: none;border: .0625rem solid #ccc;border-radius: .25rem;width: 100%;}
+.header-logo .search .input-group{padding-right:0;}
+/*带客服电话logoheader*/
+.index-tel .logo img{margin-top: 1rem;}
+.index-tel .search{margin-top: 1rem;}
+/*滚动广告*/
+.ad_text {margin-bottom: 1rem;height: 2.5rem;overflow: hidden;border:1px solid #ccc;font-size: 1rem;border-radius: 3px;}
+.ad_text .title_ad{line-height: 2.5rem;padding-left: 1rem;}
+.ad_text ul {margin:0;padding:0;}
+.ad_text ul li {height: 2.5rem; line-height: 2.5rem; list-style: none;}
+.ad_text ul li a{display: block;font-size: 1rem;}
+/*banner*/
+.banner { height: 300px; overflow: hidden;}
+.banner .carousel{ height: 300px; }
+.banner .carousel img{ height: 300px;width: 100% }
+
+/*电商二级页面 商品例表*/
+.main .right_list_main {padding:0;}
+/*首页单项入口*/
+.program {margin-bottom: 1rem;margin-top:1rem;}
+.program h3{text-align: left;margin: 0;line-height: 3rem;height: 3rem;margin-top:.5rem;font-weight: bold;padding-left: 13px;}
+.program img{width:100%;height: auto;min-height: 150px;max-height: 150px;}
+.program .program-main:nth-child(1){background: #F9EED4;color: #A52F00;}
+.program .program-main:nth-child(2){background: #FFECEE;color: #914993;}
+.program .program-main:nth-child(3){background: #CEEEFB;color: #2370C1;}
+/*主页分类*/
+.classify {border:1px solid #ccc;border-right: 0;border-bottom: 0;}
+.classify ,.classify-main {padding: 0}
+.classify-main {min-height: 80px;border:1px solid #ccc; border-left: 0;border-top: 0;cursor: pointer;}
+.classify-main h4{line-height: 80px;text-align: right;margin:0;}
+.classify-main img{width: auto;max-height: 80px;}
+.classify-main  .classify-img{padding:0;}
+/*系统推荐*/
+.recommend {background: #f7f7f7;margin-bottom: 1.5rem;}
+.recommend h3 {margin:0;line-height: 4rem;height: 4rem; text-align: center;}
+.recommend h3 span{font-size: 18px;font-weight: normal; color: #333;}
+.recommend h4 {text-overflow: ellipsis;overflow: hidden;white-space: nowrap}
+.recommend .udk_sp {border:1px solid #fff;padding:1rem;padding-bottom: 0;}
+.recommend .udk_sp:hover {box-shadow: 0 0 14px #889BF3;}
+.recommend .udk_sp img{width:100%;max-height: 251px;min-height: 251px;}
+.recommend .caption h3{font-size: 16px;text-align: left;}

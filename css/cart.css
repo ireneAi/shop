@@ -1,0 +1,31 @@
+/*购物车*/
+.cart_list {padding-bottom: 40px;}
+.cart_list h5{margin-top:0;padding-left: 15px;margin-bottom: 15px;}
+.cart_list h5 strong{color:#D9534F ;margin:0 5px;}
+.goods_list { text-align: center;border-bottom: 1px solid #ccc;}
+.goods_list th{font-weight: normal;text-align: center;}
+.goods_list th label{font-weight: normal;}
+.goods_list th input{vertical-align: -2px;margin-right: 5px;margin-left: 10px;}
+.goods_list td input{margin-left: 10px;}
+.goods_list td:first-child,.goods_list th:first-child{text-align: left;}
+.goods_list tr:hover td{background: #F7F7E9}
+.goods_info{padding:.5rem;margin-bottom: 0;    text-align: left;}
+.goods_info dt{float: left;margin-right: 1rem}
+.goods_info dt img{height: 80px;width: 80px;}
+.goods_info dd {padding-top: 1rem;}
+.goods_info dd a{font-size: 1rem;max-width: 290px;display: block;max-height: 43px;overflow: hidden;}
+.goods_list .num_info{font-size: 0;}
+.goods_list .num {cursor:pointer;font-size:.8rem;display: inline-block;border:1px solid #ccc;height: 17px;width: 16px;text-align: center;line-height: 12px;color: #ccc;}
+.goods_list .num_info input{width:25px;padding:0;margin: 0 7px;height: 25px;vertical-align: 4px;}
+.operate span.del{cursor: pointer;color: #337AB7;font-size: .8rem;text-decoration: underline;}
+
+.cart_info {position: fixed;bottom:0;transform: translate(-50%,0);left:50%;}
+.cart_info .cart_info_list{margin-bottom: 0;border-bottom: 0;height: 40px;}
+.cart_info .checkla {margin:0 10px;font-weight: normal;cursor: pointer;}
+.cart_info .checkla input{vertical-align: -3px;margin-right: 6px;}
+.cart_info .cart_info_list td:last-child {text-align: right;}
+.cart_info .cart_info_list td:last-child button{position: relative;padding: 5px 20px;font-size: 1.125rem;}
+.cart_info .cart_info_list td:last-child strong{font-size: 1rem;position: absolute;left: 75px;top:-10px;height: 25px;min-width: 25px;display: inline-block;background: #d9534f;border-radius: 16px;text-align: center;line-height: 22px;border: 1px solid #B90000;padding: 0 5px;}
+.cart_info .del{cursor: pointer;color: #337AB7;font-size: .8rem;text-decoration: underline;}
+.cart_info .stor{margin:0 8px;color: #d9534f;font-size: 1.5rem;}
+.cart_info .stor1{font-size: 1.2rem;}

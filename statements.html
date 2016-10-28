@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电商平台-二级画面</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/commont.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+<body>
+    <!-- topheader start-->
+    <div class="container-fluid header">        
+        <div class="container">
+            <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6 login_link">
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+            </div>
+            <div class="col-xs-6 col-sm-8 col-md-6 col-lg-6 my_info">
+                <a href="shop_cart.html">我的购物车 <span class="badge">42</span></a>
+                <a href="#">我的订单</a>
+            </div>
+        </div>
+    </div>
+    <!-- topheader end-->
+    <!-- logoheader star-->
+    <div class="container header-logo">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 logo">           
+            <a href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 push-right search">
+            <div class="col-xs-4 col-lg-2">             
+                <select class="adr_selec">
+                    <option>朝阳区</option>
+                    <option>海淀区</option>
+                </select>
+            </div>
+            <div class="col-xs-8 col-lg-10 input-group">
+                <input type="text" class="form-control" placeholder="优质商品，超低价格">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">搜 索</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- logoheader end-->
+    <!-- 收货地址 start-->
+    <div class="container adr">
+        <h4>收货地址</h4>
+        <table class="table">
+          <tr>
+              <td><label class="checkla"><input type="checkbox" name="goodsBtn">全选</label><span class="del">删除选中的商品</span></td>
+              <td>
+                  <span>已选<strong class="stor stor1">3</strong>件商品</span>
+              </td>
+              <td>
+                  <span>总价<strong class="stor">￥24.20</strong></span>
+              </td>
+              <td>
+                  <button class="btn  btn-primary">
+                      去结算<strong>5</strong>
+                  </button>
+              </td>
+          </tr>
+      </table>
+  </div>
+  <!-- 收货地址 end-->
+  <!-- 支付方式 start-->
+  <div class="container pay">
+        <h4>支付方式</h4>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+    <!-- 支付方式 end-->
+    <!-- 送货清单 start-->
+    <div class="container adr">
+        <h4>送货清单</h4>
+        <table class="table table-striped goods_list">
+          <tr>
+              <th>商品</th>
+              <th>单价(元)</th>
+              <th>小计(元)</th>
+          </tr>
+          <tr>
+              <td>
+                  <input type="checkbox" name="goodsBtn">
+              </td>
+              <td>
+                  <dl class="goods_info clearfix">
+                      <dt><img src="img/1.jpg"></dt>
+                      <dd><a href="#">康师傅清润香醇茉莉蜜茶</a></dd>
+                  </dl>
+              </td>
+              <td>29.50</td>
+              <td class="num_info">
+                  <span class="num">-</span>
+                  <input type="text" value="2">
+                  <span class="num">+</span>
+              </td>
+              <td>29.50</td>
+              <td class="operate"><span class="del">删除</a></td>
+          </tr>
+      </table>
+    </div>
+    <!-- 送货清单 end-->
+    <!-- 发票信息 start-->
+    <div class="container adr">
+        <h4>发票信息</h4>
+        <div class="col-sm-5">
+          <input type="email" class="form-control" id="inputEmail3" placeholder="发票信息">
+      </div>
+      <label for="inputEmail3" class="col-sm-2 control-label">修改</label>     
+  </div>
+    <!-- 发票信息 end-->
+</body>
+</html>
