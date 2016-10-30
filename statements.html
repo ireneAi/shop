@@ -48,36 +48,62 @@
   <!-- logoheader end-->
   <!-- 收货地址 start-->
   <div class="container adr">
-    <h4>收货地址</h4>
-    <table class="table">
-      <tr>
-        <td><label class="checkla"><input type="checkbox" name="goodsBtn">全选</label><span class="del">删除选中的商品</span></td>
-        <td>
-          <span>已选<strong class="stor stor1">3</strong>件商品</span>
-        </td>
-        <td>
-          <span>总价<strong class="stor">￥24.20</strong></span>
-        </td>
-        <td>
-          <button class="btn  btn-primary">
-            去结算<strong>5</strong>
-          </button>
-        </td>
-      </tr>
-    </table>
+    <h4 class="s_title">收货地址</h4>   
+    <div class="container adr_list">
+       <a class="add_adr" href="#">新增收货地址</a>
+       <ul class="clearfix">
+         <li class="moren">
+           <div class="adr_info">
+              <span class="user_name">王艾林 北京</span>
+              <span>北京市海淀区燕园大厦</span>
+           </div>         
+             <ul class="adr_cz">
+              <li>设置默认地址</li>
+              <li>编辑</li>
+              <li>删除</li>
+            </ul>
+         </li>
+         <li>
+           <div class="adr_info">
+              <span class="user_name">王麦曦 北京</span>
+              <span>北京市昌平区顺沙路488号</span>
+           </div>         
+             <ul class="adr_cz">
+              <li>设置默认地址</li>
+              <li>编辑</li>
+              <li>删除</li>
+            </ul>
+         </li>
+         <li>
+           <div class="adr_info">
+              <span class="user_name">王麦曦 北京</span>
+              <span>北京市昌平区顺沙路488号</span>
+           </div>         
+             <ul class="adr_cz">
+              <li>设置默认地址</li>
+              <li>编辑</li>
+              <li>删除</li>
+            </ul>
+         </li>
+       </ul>
+       <span class="display">收起^^</span>
+    </div>
   </div>
   <!-- 收货地址 end-->
   <!-- 支付方式 start-->
   <div class="container pay">
-    <h4>支付方式</h4>
-    <ul>
-      <li></li>
+    <h4 class="s_title">支付方式</h4>
+    <ul class="pay_list">
+      <li>货到付款</li>
+      <li>微信支付</li>
+      <li>支付宝支付</li>
+      <li>更多>></li>
     </ul>
   </div>
   <!-- 支付方式 end-->
   <!-- 送货清单 start-->
   <div class="container inventory">
-    <h4>送货清单</h4>
+    <h4 class="s_title">送货清单</h4>
     <table class="table">          
       <tr>
         <td>
@@ -113,14 +139,15 @@
   </div>
   <!-- 送货清单 end-->
   <!-- 发票信息 start-->
-  <div class="container adr">
-    <h4 class="col-sm-2">发票信息</h4>
+  <div class="container tick">
+    <h4 class="pull-left s_title">发票信息</h4>
     <div class="col-sm-5">
       <input type="email" class="form-control" id="inputEmail3" placeholder="发票信息">
     </div>
-    <label for="inputEmail3" class="col-sm-2 control-label">修改</label>     
+    <label for="inputEmail3" class="pull-left control-label">修改</label>     
   </div>
   <!-- 发票信息 end-->
+  <!-- 结算清单 start-->
   <div class="container nventory_bottom">
     <div class="item">      
       <span class="item_title"><strong>2</strong>件商品，总商品金额：</span>
@@ -128,7 +155,7 @@
     </div>
     <div class="item">      
       <span class="item_title">运费：</span>
-      <span class="item_m">￥420</span>
+      <span class="item_m">￥0.00</span>
     </div>
     <div class="item item_strong">  
       <div class="item strong_i">          
@@ -140,6 +167,10 @@
         <span >北清路昌平区生命科学院</span>
       </div>  
     </div>
+  </div>
+  <!-- 结算清单 end-->
+  <div class="container order_btn_box">
+      <button class="btn btn-primary order_btn">提交订单</button>
   </div>
 </body>
 </html>

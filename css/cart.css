@@ -9,9 +9,9 @@
 .goods_list td input{margin-left: 10px;}
 .goods_list td:first-child,.goods_list th:first-child{text-align: left;}
 .goods_list tr:hover td{background: #F7F7E9}
-.goods_info{padding:.5rem;margin-bottom: 0;    text-align: left;}
+.goods_info{margin-bottom: 0;    text-align: left;}
 .goods_info dt{float: left;margin-right: 1rem}
-.goods_info dt img{height: 80px;width: 80px;}
+.goods_info dt img{height: 60px;width: 60px;}
 .goods_info dd {padding-top: 1rem;}
 .goods_info dd a{font-size: 1rem;max-width: 290px;display: block;max-height: 43px;overflow: hidden;}
 .goods_list .num_info{font-size: 0;}
@@ -30,11 +30,34 @@
 .cart_info .stor{margin:0 8px;color: #d9534f;font-size: 1.5rem;}
 .cart_info .stor1{font-size: 1.2rem;}
 /*结算清单*/
-.inventory table {width:80%;}
+.inventory table { margin: 2rem;width: 92%;}
 .inventory .goods_info a{font-size: .8rem;}
-.nventory_bottom {padding:10px; text-align: right;padding-bottom: 50px;font-size: 1rem;}
+.nventory_bottom { text-align: right;padding-bottom: 50px;font-size: 1rem;padding: 1rem 0;}
 .nventory_bottom .item{margin-top:8px;}
 .nventory_bottom .item_title strong{color: #d9534f;font-size: 1rem;margin:0 8px;}
 .nventory_bottom .item_m{width:100px;display: inline-block;}
 .nventory_bottom .item_strong {border: 1px solid #F1D5A3;background: #FFFBEF;padding: 20px;margin: 10px 0;font-size:1rem}
 .nventory_bottom .item_strong .strong_i .item_m{color: #d9534f;font-size: 2rem;}
+.s_title{font-weight: bold;margin:1rem 0;}
+.adr ,.pay,.inventory,.tick{border:1px solid #ccc;}
+.adr_list {position:relative;    padding-left: 4rem;}
+.adr_list .add_adr {position:absolute;right:40px;top:-20px;}
+.adr_list ul li {list-style: none;display: block;height: 2rem;line-height: 2rem;margin-top: 1rem;}
+.adr_list ul li:hover{background: #f1f1f1;}
+.adr_list .adr_info  {float: left;font-size: 1rem;min-width: 33rem;}
+.adr_list .adr_info .user_name  {background:#fff;border: 1px solid #ccc;margin-right:.5rem;display: inline-block; height: 2rem;padding:0 .5rem;line-height: 2rem;}
+.adr_list .moren .user_name {box-shadow: 3px 3px  #FFE2E1;border: 2px solid #d9534f;}
+.adr_list .moren:before{content: '默认地址';color: #d9534f;display: inline-block;font-size: 12px;margin-right: .5rem;float: left;margin-left: -55px;}
+.adr_list ul.adr_cz  {float: left; }
+.adr_list ul.adr_cz li {font-size:12px;margin-top:0;list-style: none;display: inline-block;text-decoration: underline;color: #337AB7;margin:0 .5rem;}
+.adr_list .display{margin-left: 3rem;font-size:12px;color: #337AB7;margin: .5rem 0 .5rem 2.75rem;display: inline-block;}
+.pay_list {margin: 1.5rem 0;}
+.pay_list li {line-height:2rem;list-style: none;margin-right: .8rem;border:1px solid #ccc;display: inline-block;height: 2rem;padding:0 1rem;}
+.pay_list li:last-child{border:0;font-size:12px;color:#337AB7;}
+.tick {padding:1rem 0;}
+.tick .s_title{padding-left: 1rem;}
+.tick input{margin: .8rem 0;}
+.tick label{margin: 1.2rem 0;}
+
+.order_btn_box {padding:0;padding-bottom: 2rem; text-align: right;}
+.order_btn_box .order_btn{height: 3rem;font-size: 1.25rem;padding:0 1rem;}
